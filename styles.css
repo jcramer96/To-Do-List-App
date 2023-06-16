@@ -24,7 +24,7 @@ input {
     height: 40px;
     border: 1px solid white;
     border-radius: 20px;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 input:focus {
@@ -43,6 +43,47 @@ input:focus {
     right: 15%;
 }
 
+ul {
+    margin-top: 25px;
+}
+
+li {
+    color: white;
+    padding: 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.li-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.li-text {
+    padding-top: 20px;
+}
+
+#unchecked-box,
+#checked-box,
+#edit,
+#trash {
+    fill: white;
+    position: absolute;
+}
+
+#unchecked-box {
+    left: 8%;
+}
+
+#edit {
+    right: 8%;
+}
+
+#trash {
+    right: 3%;
+}
+
 @media (min-width: 768px) {
     input {
         width: 45%;
@@ -50,5 +91,17 @@ input:focus {
 
     #add-btn {
         right: 27.5%
+    }
+
+    #unchecked-box {
+        left: 30%;
+    }
+    
+    #edit {
+        right: 32%;
+    }
+    
+    #trash {
+        right: 30%;
     }
 }
