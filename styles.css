@@ -60,27 +60,23 @@ li {
     background-color: transparent;
 }
 
-.li-text {
-    padding-top: 20px;
-}
-
-#unchecked-box,
-#checked-box,
-#edit,
-#trash {
+.unchecked-box,
+.checked-box,
+.edit,
+.trash {
     fill: white;
     position: absolute;
 }
 
-#unchecked-box {
+.unchecked-box {
     left: 8%;
 }
 
-#edit {
+.edit {
     right: 8%;
 }
 
-#trash {
+.trash {
     right: 3%;
 }
 
@@ -93,15 +89,15 @@ li {
         right: 27.5%
     }
 
-    #unchecked-box {
-        left: 30%;
+    .unchecked-box {
+        left: 28%;
     }
     
-    #edit {
-        right: 32%;
+    .edit {
+        right: 31%;
     }
     
-    #trash {
-        right: 30%;
+    .trash {
+        right: 28%;
     }
 }
