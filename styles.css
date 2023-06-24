@@ -60,20 +60,23 @@ li {
     background-color: transparent;
 }
 
-.unchecked-box,
-.checked-box,
+.li-text {
+    font-size: 1.3rem;
+}
+
+.checkbox,
 .edit,
 .trash {
     fill: white;
     position: absolute;
 }
 
-.unchecked-box {
-    left: 8%;
+.checkbox {
+    left: 3%;
 }
 
 .edit {
-    right: 8%;
+    right: 10%;
 }
 
 .trash {
@@ -89,15 +92,15 @@ li {
         right: 27.5%
     }
 
-    .unchecked-box {
-        left: 28%;
+    .checkbox {
+        left: 20%;
     }
     
     .edit {
-        right: 31%;
+        right: 25%;
     }
     
     .trash {
-        right: 28%;
+        right: 20%;
     }
 }
